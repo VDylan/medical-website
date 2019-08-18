@@ -73,23 +73,86 @@ li {
 }
 
 /* ===================================
-            START MAIN
+                MAIN
 ====================================== */
 main {
-    background-color: #e5b8ff;
     grid-column: span 10;
+    background-image: url(../images/back2.jpg);
 }
 
 /* ===================================
-            START FOOTER
+                FOOTER
 ====================================== */
 footer {
     background-color: #e2fff8;
     grid-column: span 10;
     font-size: 1.5rem;
+    border: 1px solid #000;
 }
 
 .back_top {
     height: 2%;
     width: 2%;
 }
+
+/* ==============================================================
+                        INDEX.HTML
+================================================================= */
+.article_index {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.welcome_index {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 2rem;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    margin-right: 25rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+.informations_index {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 2rem;
+    margin-top: 5rem;
+    margin-right: 10rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+.emergency_index {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 5rem;
+    padding-right: 25rem;
+    padding-left: 25rem;
+    color: #fff;
+    background-color: #58001b;
+}
+
+
+/* ==============================================================
+                        ABOUT.HTML
+================================================================= */
+
+
+/* ==============================================================
+                        DISCPIPLINE.HTML
+================================================================= */
+
+
+/* ==============================================================
+                        SCHEDULE.HTML
+================================================================= */
+
+
+/* ==============================================================
+                        CONTACT.HTML
+================================================================= */
+
+
+/* ==============================================================
+                        URGENCY.HTML
+================================================================= */
