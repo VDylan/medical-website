@@ -32,7 +32,52 @@
         </section>
     </header>
     
-    <main></main>
+    <main>
+        <article class="contact_us">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d631.5807602779374!2d3.1874432881532124!3d50.71394579871326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c328b3fd572293%3A0x5ec400173d2e892e!2s16+Rue+Corneille%2C+59150+Wattrelos!5e0!3m2!1sfr!2sfr!4v1566048002353!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <form>
+                <section>
+                    <h2 class="form_title">Make an appointment</h2>
+                    <p class="form_required">*Required</p>
+                    <p class="form_discipline">
+                        <strong>*What do you need ?</strong><br>
+                        <input type="radio" id="choice1" name="discipline" value="practitioner" required>
+                        <label for="choice1">General Practitioner</label>
+                        <br>
+                        <input type="radio" id="choice2" name="discipline" value="ophthalmology" required>
+                        <label for="choice2">Ophthalmology</label>
+                    </p>
+                    <p class="user_firstname">
+                      <label for="firstname">
+                        <span>*First Name</span>
+                      </label>
+                      <input type="text" id="firstname" name="first_name" placeholder="Enter your first name" required>
+                    </p>
+                    <p class="user_lastname">
+                      <label for="lastname">
+                        <span>*Last Name</span>
+                      </label>
+                      <input type="text" id="lastname" name="last_name" placeholder="Enter your last name" required>
+                    </p>
+                    <p class="user_mail">
+                      <label for="mail">
+                        <span>*Email :</span>
+                      </label>
+                      <input type="email" id="mail" name="usermail" placeholder="Enter email" required>
+                    </p>
+                    <p class="user_phone">
+                      <label for="phone">
+                        <span>*Phone :</span>
+                      </label>
+                      <input type="tel" id="phone" name="userphone" placeholder="Enter phone number" required>
+                    </p>
+                </section>
+                <section>
+                    <p class="submit_button"> <button type="submit">Submit</button> </p>
+                </section>
+            </form>
+        </article>
+    </main>
 
     <footer>
         <a class="a_footer" href=""><figure><img class="back_top" src="assets/images/back_top_icon.png" alt="Back to top"></figure></a>
