@@ -66,6 +66,7 @@ li {
     margin: 1rem;
     background-color: rgba(0, 68, 6, 0.75);
     border-radius: 2rem;
+    list-style: none;
 }
 
 .urgency_button {
@@ -142,6 +143,7 @@ footer {
 /* ==============================================================
                         ABOUT.HTML
 ================================================================= */
+
 .main_top_about {
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 2rem;
@@ -189,7 +191,39 @@ footer {
 /* ==============================================================
                         SCHEDULE.HTML
 ================================================================= */
+.office_schedule {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 2rem;
+    margin: 5rem;
+    margin-left: 65rem;
+    margin-right: 65rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
 
+.office_schedule table {
+    background-color: unset;
+    margin: auto;
+}
+
+.discipline_schedule {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.discipline_schedule section {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 2rem;
+    margin: 5rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    padding-bottom: 2rem;
+}
+
+.discipline_schedule table {
+    background-color: unset;
+    margin: auto;
+}
 
 /* ==============================================================
                         CONTACT.HTML
