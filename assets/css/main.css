@@ -136,16 +136,6 @@ footer {
     padding-left: 5rem;
 }
 
-.emergency_index {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-top: 5rem;
-    padding-right: 25rem;
-    padding-left: 25rem;
-    color: #fff;
-    background-color: #58001b;
-}
-
 /* ==============================================================
                         ABOUT.HTML
 ================================================================= */
@@ -299,3 +289,42 @@ input[type=text]:focus, input[type=email]:focus, input[type=tel]:focus {
 /* ==============================================================
                         URGENCY.HTML
 ================================================================= */
+.emergency {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-right: 25rem;
+    padding-left: 25rem;
+    color: #fff;
+    background-color: #58001b;
+}
+
+.urgency_number {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 2rem;
+    margin: 5rem;
+    margin-left: 50rem;
+    margin-right: 50rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.urgency_number table {
+    background-color: unset;
+    margin: auto;
+    text-align: center;
+}
+
+.number th {
+    padding: 2rem;
+}
+
+.number a {
+    color: #000;
+    background-color: rgba(0, 68, 6, 0.75);
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    padding: 1rem;
+}
