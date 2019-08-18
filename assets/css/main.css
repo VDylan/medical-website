@@ -84,15 +84,22 @@ main {
                 FOOTER
 ====================================== */
 footer {
+    display: grid;
+    grid-template-columns: 1fr;
     background-color: #e2fff8;
     grid-column: span 10;
     font-size: 1.5rem;
     border: 1px solid #000;
 }
 
+.a_footer {
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
 .back_top {
-    height: 2%;
-    width: 2%;
+    height: 50%;
+    width: 50%;
 }
 
 /* ==============================================================
@@ -132,16 +139,30 @@ footer {
     background-color: #58001b;
 }
 
-
 /* ==============================================================
                         ABOUT.HTML
 ================================================================= */
+.main_top_about {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 2rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
+}
 
+.main_bottom_about {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 2rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
+}
 
 /* ==============================================================
                         DISCPIPLINE.HTML
 ================================================================= */
-
 
 /* ==============================================================
                         SCHEDULE.HTML
