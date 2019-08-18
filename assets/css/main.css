@@ -40,15 +40,21 @@ header {
     grid-template-columns: repeat(2, 1fr);
     background-color: #e2fff8;
     font-size: 1.5rem;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     border: 1px solid #000;
 }
 
 .main_header {
     display: grid;
     grid-template-columns: 20% 30% 50%;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .aestus_logo {
@@ -228,7 +234,67 @@ footer {
 /* ==============================================================
                         CONTACT.HTML
 ================================================================= */
+.contact_us {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 
+.map {
+    margin: 5rem;
+    margin-left: 20rem;
+}
+    
+form {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    margin: 5rem;
+    margin-right: 20rem;
+}
+
+form section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+form .user_firstname, .user_lastname, .user_mail, .user_phone {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.form_title {
+    grid-column: span 2;
+    margin-bottom: 0;
+}
+
+.form_required {
+    grid-column: span 2;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.form_discipline {
+    grid-column: span 2;
+}
+
+.submit_button {
+    grid-column: span 2;
+}
+
+input[type=text], input[type=email], input[type=tel] {
+    padding: 1rem;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+input[type=text]:focus, input[type=email]:focus, input[type=tel]:focus {
+    background-color: #ddd;
+}
 
 /* ==============================================================
                         URGENCY.HTML
