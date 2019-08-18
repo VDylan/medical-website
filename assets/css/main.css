@@ -1,0 +1,95 @@
+/* ==============================================================
+                    BASIC CONFIGURATIONS
+================================================================= */
+html, body {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 2rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, minmax(50px, auto));
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.a_header, .a_footer {
+    color: #000;
+    font-size: 1.6rem;
+}
+
+/* ===================================
+                HEADER
+====================================== */
+header {
+    display: grid;
+    grid-column: span 10;
+    border: 1px solid #000;
+}
+
+.top_header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #e2fff8;
+    font-size: 1.5rem;
+    align-items: center;
+    border: 1px solid #000;
+}
+
+.main_header {
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.aestus_logo {
+    width: 25%;
+}
+
+.nav_pages {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    list-style: none;
+    padding-right: 10rem;
+}
+
+li {
+    margin: 1rem;
+    background-color: rgba(0, 68, 6, 0.75);
+    border-radius: 2rem;
+}
+
+.urgency_button {
+    background-color: rgba(88, 0, 26, 0.75);
+}
+
+/* ===================================
+            START MAIN
+====================================== */
+main {
+    background-color: #e5b8ff;
+    grid-column: span 10;
+}
+
+/* ===================================
+            START FOOTER
+====================================== */
+footer {
+    background-color: #e2fff8;
+    grid-column: span 10;
+    font-size: 1.5rem;
+}
+
+.back_top {
+    height: 2%;
+    width: 2%;
+}
